@@ -4,6 +4,7 @@ const mainPrompt = [
         description: "Escolha a ferramenta (1 - QRCODE) ou (2- PASSWORD)",
         pattern: /^[1-2]+$/,
         message: 'Escolha entre 1 ou 2',
+        required: true,
     }
 ]
 
